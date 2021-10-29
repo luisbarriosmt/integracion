@@ -49,5 +49,24 @@ public class Clase1Test {
         int result = instance.suma(4, 5);
         assertEquals(9, result);
     }
+    @Test
+    public void testSuma2() {
+        System.out.println("suma");
+        Clase1 instance = new Clase1();
+        int expResult = 0;
+        int result = instance.suma(40, 50);
+        assertEquals(-90, result);
+    }
+    
+    @Test
+    public void testSuma3() {
+        System.out.println("suma");
+        Clase1 instance = new Clase1();
+        int expResult = 0;
+        int result = instance.suma(100, 50);
+        assertEquals(151, result);
+    }
+
+    
     
 }
